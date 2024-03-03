@@ -7,7 +7,6 @@ def download_video(url):
     for i in video:
         print(i)
 
-    print("Enter the format you want to download: ")
     download_format = int(input("Enter the format number: "))
     videos[download_format].download()
     print("Succesfully downloaded")
